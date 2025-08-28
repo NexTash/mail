@@ -1,4 +1,4 @@
-// Copyright (c) 2024, Frappe Technologies Pvt. Ltd. and contributors
+// Copyright (c) 2024, NexTash
 // For license information, please see license.txt
 
 const STORES_PRESET = {
@@ -18,9 +18,9 @@ const STORES_PRESET = {
 	PostgreSQL: {
 		store_id: 'postgresql',
 		port: 5432,
-		database: 'frappemail',
+		database: 'nextashmail',
 		timeout: 15,
-		user: 'frappemail',
+		user: 'nextashmail',
 		compression: 'LZ4',
 		purge_frequency: '0 3 * * *',
 		pool_max_connections: 10,
@@ -28,9 +28,9 @@ const STORES_PRESET = {
 	mySQL: {
 		store_id: 'mysql',
 		port: 3306,
-		database: 'frappemail',
+		database: 'nextashmail',
 		timeout: 15,
-		user: 'frappemail',
+		user: 'nextashmail',
 		compression: 'LZ4',
 		purge_frequency: '0 3 * * *',
 		pool_max_connections: 10,
@@ -46,8 +46,8 @@ const STORES_PRESET = {
 	'S3-compatible': {
 		store_id: 's3',
 		timeout: 15,
-		bucket: 'frappemail',
-		key_prefix: 'frappemail/',
+		bucket: 'nextashmail',
+		key_prefix: 'nextashmail/',
 		compression: 'LZ4',
 		max_retries: 3,
 		purge_frequency: '0 3 * * *',
@@ -57,13 +57,13 @@ const STORES_PRESET = {
 		redis_type: 'Redis Single Node',
 		urls: 'redis://127.0.0.1',
 		timeout: 15,
-		user: 'frappemail',
+		user: 'nextashmail',
 		read_from_replicas: 1,
 	},
 	ElasticSearch: {
 		store_id: 'elasticsearch',
 		url: 'http://localhost:9200',
-		user: 'frappemail',
+		user: 'nextashmail',
 		index_shards: 3,
 		index_replicas: 0,
 	},
@@ -72,7 +72,7 @@ const STORES_PRESET = {
 		timeout: 15,
 		storage_account: 'frappe',
 		container: 'mail',
-		key_prefix: 'frappemail/',
+		key_prefix: 'nextashmail/',
 		compression: 'LZ4',
 		max_retries: 3,
 		purge_frequency: '0 3 * * *',

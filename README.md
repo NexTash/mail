@@ -1,7 +1,7 @@
 <div align="center" markdown="1">
 
-<img src="/mail/public/images/logo.svg" alt="Frappe Mail logo" width="80" />
-<h1>Frappe Mail</h1>
+<img src="/mail/public/images/logo.svg" alt="NexTash mail logo" width="80" />
+<h1>NexTash mail</h1>
 
 **End-to-End Email Management Platform**
 
@@ -9,9 +9,9 @@
 
 </div>
 
-## Frappe Mail
+## NexTash mail
 
-Frappe Mail is a powerful and flexible email management system designed to streamline email communication for businesses. It provides an easy-to-use interface for sending, receiving, and managing email messages, all while ensuring robust security and reliability.
+NexTash mail is a powerful and flexible email management system designed to streamline email communication for businesses. It provides an easy-to-use interface for sending, receiving, and managing email messages, all while ensuring robust security and reliability.
 
 ## Table of Contents
 
@@ -37,11 +37,11 @@ Frappe Mail is a powerful and flexible email management system designed to strea
 
 ## Introduction
 
-The introduction provides an overview of the Frappe Mail, its purpose, and the key components that make it a robust email solution for managing communication. This section also offers an insight into the Mail Agent ([Stalwart Mail Server](https://github.com/stalwartlabs/mail-server)), which powers the mail functionalities within the app.
+The introduction provides an overview of the NexTash mail, its purpose, and the key components that make it a robust email solution for managing communication. This section also offers an insight into the Mail Agent ([Stalwart Mail Server](https://github.com/stalwartlabs/mail-server)), which powers the mail functionalities within the app.
 
 ### Overview
 
-Frappe Mail is a comprehensive email management solution integrated with the [Frappe Framework](https://github.com/frappe/frappe), designed to handle a wide range of email-related tasks. It provides users with the tools to send, receive, and manage emails while also offering essential features like email queue management, DKIM signing, and robust reporting. The app can be configured to work with the Mail Agent (Stalwart Mail Server), which handles the actual sending and receiving of emails.
+NexTash mail is a comprehensive email management solution integrated with the [Frappe Framework](https://github.com/frappe/frappe), designed to handle a wide range of email-related tasks. It provides users with the tools to send, receive, and manage emails while also offering essential features like email queue management, DKIM signing, and robust reporting. The app can be configured to work with the Mail Agent (Stalwart Mail Server), which handles the actual sending and receiving of emails.
 
 The app is built to scale, offering both simple and advanced features to cater to businesses of all sizes. With its seamless integration within the Frappe ecosystem, administrators and users can manage email settings, troubleshoot email delivery issues, and ensure secure communication between servers.
 
@@ -54,7 +54,7 @@ Key functionalities include:
 
 ### The Role of the Mail Agent
 
-The Mail Agent (Stalwart Mail Server) is a critical component of the Frappe Mail. It is a dedicated email server designed to handle all email-related communication in an efficient and reliable manner. The Mail Agent ensures the smooth sending and receiving of emails by managing various aspects like SMTP and IMAP connections, message queuing, and DKIM signing.
+The Mail Agent (Stalwart Mail Server) is a critical component of the NexTash mail. It is a dedicated email server designed to handle all email-related communication in an efficient and reliable manner. The Mail Agent ensures the smooth sending and receiving of emails by managing various aspects like SMTP and IMAP connections, message queuing, and DKIM signing.
 
 As a mail server, the Mail Agent manages email transactions by authenticating email accounts, routing messages, and ensuring proper formatting. When a message is sent from the Mail App, the Mail Agent takes care of signing the email (if required), applying security protocols, and delivering the email to its destination.
 
@@ -67,14 +67,14 @@ In summary, the Mail Agent serves the following key roles:
 
 ### Key Features
 
-Frappe Mail comes equipped with several key features that make it an indispensable tool for businesses and organizations looking to manage their email operations effectively. These features include:
+NexTash mail comes equipped with several key features that make it an indispensable tool for businesses and organizations looking to manage their email operations effectively. These features include:
 
 - **SMTP and IMAP Connection Pooling:** Optimized for handling multiple email connections concurrently, improving overall performance and reducing the load on mail servers.
-- **DKIM Signing and Email Security:** Frappe Mail integrates with industry-standard security protocols such as DKIM, SPF, and DMARC, ensuring that emails sent through the system are secure and properly authenticated.
+- **DKIM Signing and Email Security:** NexTash mail integrates with industry-standard security protocols such as DKIM, SPF, and DMARC, ensuring that emails sent through the system are secure and properly authenticated.
 - **Email Queuing and Retry Mechanism:** The Mail App includes an email queuing system to manage outbound messages, with automated retry features to handle transient failures and ensure email delivery.
-- **Advanced Reporting and Tracking:** Frappe Mail provides detailed reports on email delivery, bounce rates, and other performance metrics, enabling administrators to troubleshoot and optimize email workflows.
+- **Advanced Reporting and Tracking:** NexTash mail provides detailed reports on email delivery, bounce rates, and other performance metrics, enabling administrators to troubleshoot and optimize email workflows.
 - **Integration with the Frappe Ecosystem:** Seamlessly integrates with other Frappe applications, allowing for centralized management of email, notifications, and other communication tasks.
-  With these features, Frappe Mail is not only a powerful solution for managing email communication but also a flexible tool that can be customized to meet the specific needs of businesses, from sending marketing emails to transactional messages and customer support communication.
+  With these features, NexTash mail is not only a powerful solution for managing email communication but also a flexible tool that can be customized to meet the specific needs of businesses, from sending marketing emails to transactional messages and customer support communication.
 
 Comming Soon:
 
@@ -82,15 +82,15 @@ Comming Soon:
 
 ## Getting Started
 
-This section will help you set up and configure Frappe Mail, ensuring that your email system is ready to use. It includes instructions for installing both the Stalwart Mail Server and the Frappe Mail app, details about system requirements, and steps for the initial configuration.
+This section will help you set up and configure NexTash mail, ensuring that your email system is ready to use. It includes instructions for installing both the Stalwart Mail Server and the NexTash mail app, details about system requirements, and steps for the initial configuration.
 
 ### Installation and Setup
 
-Follow these steps to install and set up Frappe Mail and its supporting components:
+Follow these steps to install and set up NexTash mail and its supporting components:
 
 #### Step 1: Install and Configure Stalwart Mail Server
 
-The Stalwart Mail Server is the backbone of Frappe Mail's functionality. Below are the instructions for setting up Stalwart for both development and production environments.
+The Stalwart Mail Server is the backbone of NexTash mail's functionality. Below are the instructions for setting up Stalwart for both development and production environments.
 
 **Development**
 
@@ -138,9 +138,9 @@ Setting up Stalwart Mail Server for production requires additional configuration
      sudo systemctl restart stalwart
    ```
 
-#### Step 2: Install Frappe Mail
+#### Step 2: Install NexTash mail
 
-After setting up the Stalwart Mail Server, the next step is to install the Frappe Mail app. You can choose between using Docker for an easy setup or performing a manual installation.
+After setting up the Stalwart Mail Server, the next step is to install the NexTash mail app. You can choose between using Docker for an easy setup or performing a manual installation.
 
 **Using Docker**
 
@@ -162,7 +162,7 @@ After setting up the Stalwart Mail Server, the next step is to install the Frapp
    docker compose up -d
    ```
 
-4. **Access the Frappe Mail site:**
+4. **Access the NexTash mail site:**
    Visit http://mail.localhost in your browser.
 
    **Default Credentials:**
@@ -187,7 +187,7 @@ After setting up the Stalwart Mail Server, the next step is to install the Frapp
 
 ### Initial Configuration
 
-After successfully installing Frappe Mail, follow these steps to configure your email system. This involves setting up DNS records, connecting the Mail Agent (Stalwart Mail Server), and creating domains and accounts.
+After successfully installing NexTash mail, follow these steps to configure your email system. This involves setting up DNS records, connecting the Mail Agent (Stalwart Mail Server), and creating domains and accounts.
 
 #### Step 1: Configure Mail Settings
 
@@ -214,7 +214,7 @@ After successfully installing Frappe Mail, follow these steps to configure your 
 
 #### Step 2: Add Mail Agent
 
-To connect Frappe Mail with the Stalwart Mail Server(s), configure Mail Agents and Mail Agent Groups.
+To connect NexTash mail with the Stalwart Mail Server(s), configure Mail Agents and Mail Agent Groups.
 
 1. **Create a Mail Agent Group:**
 
@@ -267,7 +267,7 @@ To connect Frappe Mail with the Stalwart Mail Server(s), configure Mail Agents a
 
 ### Sending Your First Email
 
-Frappe Mail offers three simple ways to send emails:
+NexTash mail offers three simple ways to send emails:
 
 1. **Using the Mail UI**
 2. **Through the Desk Interface**
@@ -300,20 +300,20 @@ With these options, you can choose the method that best suits your workflow or a
 
 ## Functionality
 
-This section explains the core functionalities of Frappe Mail, including how to manage domains, accounts, groups, and aliases, as well as how to send and receive emails. It also covers the management of email queues for efficient processing.
+This section explains the core functionalities of NexTash mail, including how to manage domains, accounts, groups, and aliases, as well as how to send and receive emails. It also covers the management of email queues for efficient processing.
 
 ### Managing Domains, Accounts, Groups, and Aliases
 
-Frappe Mail provides an easy-to-use interface for managing the various components of your email system. Here's how you can set up and manage each of these elements:
+NexTash mail provides an easy-to-use interface for managing the various components of your email system. Here's how you can set up and manage each of these elements:
 
 #### Domains:
 
 - A domain represents your email domain (e.g., example.com) and is used to define the sending and receiving email addresses.
-- You can add, remove, and configure multiple domains in Frappe Mail. Each domain must be verified and associated with the appropriate MX, SPF, and DKIM records to ensure email deliverability and security.
+- You can add, remove, and configure multiple domains in NexTash mail. Each domain must be verified and associated with the appropriate MX, SPF, and DKIM records to ensure email deliverability and security.
 
 #### Accounts:
 
-- An mail account in Frappe Mail is associated with a user (with Mail User role) (e.g., user@example.com).
+- An mail account in NexTash mail is associated with a user (with Mail User role) (e.g., user@example.com).
 - You can create accounts manually through the desk, and assign roles and permissions to manage who can send and receive emails.
 
 #### Groups:
@@ -329,23 +329,23 @@ Frappe Mail provides an easy-to-use interface for managing the various component
 
 ### Sending and Receiving Emails
 
-Frappe Mail simplifies the process of sending and receiving emails through its seamless integration with the Mail Agent (Stalwart Mail Server). Here's how it works:
+NexTash mail simplifies the process of sending and receiving emails through its seamless integration with the Mail Agent (Stalwart Mail Server). Here's how it works:
 
 #### Sending Emails:
 
-- To send an email, Frappe Mail connects to the SMTP server through the configured Mail Agent.
-- When a user sends an email, Frappe Mail retrieves an available connection from the SMTP pool. If no connection is available, a new one is created.
+- To send an email, NexTash mail connects to the SMTP server through the configured Mail Agent.
+- When a user sends an email, NexTash mail retrieves an available connection from the SMTP pool. If no connection is available, a new one is created.
 - The email is then processed, and if necessary, additional operations such as DKIM signing are performed before sending the email through the Mail Agent to the recipient's mail server.
 
 #### Receiving Emails:
 
-- Frappe Mail also manages the IMAP connection for receiving emails. It connects to the configured IMAP server and periodically checks for new emails.
+- NexTash mail also manages the IMAP connection for receiving emails. It connects to the configured IMAP server and periodically checks for new emails.
 - Once an email is received, it is stored in the user's inbox/spam folder based on the email's classification.
 - Users can access their received emails through the app’s inbox interface, and emails can be organized into folders or marked with labels as needed.
 
 ### Queue Management
 
-Frappe Mail uses a queueing system to manage the sending and receiving of emails efficiently. This ensures that email traffic is processed in a timely manner without overloading the system.
+NexTash mail uses a queueing system to manage the sending and receiving of emails efficiently. This ensures that email traffic is processed in a timely manner without overloading the system.
 
 #### Email Queue for Outbound Emails:
 
@@ -354,7 +354,7 @@ Frappe Mail uses a queueing system to manage the sending and receiving of emails
 
 #### Inbound Email Queue:
 
-Similarly, inbound emails are placed in a queue for processing. This allows Frappe Mail to handle large volumes of incoming emails and ensures that each email is processed properly, including filtering, categorization, and delivery to the appropriate inbox.
+Similarly, inbound emails are placed in a queue for processing. This allows NexTash mail to handle large volumes of incoming emails and ensures that each email is processed properly, including filtering, categorization, and delivery to the appropriate inbox.
 
 #### Error Handling:
 
@@ -376,7 +376,7 @@ Queue management ensures that emails are processed efficiently, even under high 
 
 ### 2. Outbound API
 
-APIs for sending emails through Frappe Mail.
+APIs for sending emails through NexTash mail.
 
 #### 2.1 Send
 
@@ -464,7 +464,7 @@ APIs for retrieving received emails.
   {
     "message": {
       "mails": [
-        "Delivered-To: me@s-aga-r.dev\r\nReceived-At: 2024-11-06T08:58:30.063Z\r\nAuthentication-Results: mail.s-aga-r.dev;\r\n\tspf=pass (mail.s-aga-r.dev: domain of sagar.s@frappemail.com designates 64.227.189.58 as permitted sender) smtp.mailfrom=sagar.s@frappemail.com smtp.helo=o1-blr.frappemail.com;\r\n\tdkim=pass header.i=@frappemail.com header.s=frappemail-com-d8852addda header.a=rsa-sha256 header.b=qJlPddwY;\r\n\tdmarc=pass (p=REJECT arc=none) header.from=frappemail.com header.d=frappemail.com;\r\n\tbimi=none\r\nReceived-SPF: pass (mail.s-aga-r.dev: domain of sagar.s@frappemail.com designates 64.227.189.58 as permitted sender) client-ip=64.227.189.58;\r\nReceived: from o1-blr.frappemail.com (o1-blr.frappemail.com [64.227.189.58])\r\n\tby mail.s-aga-r.dev (Haraka/3.0.3) with ESMTPS id EA28E71F-ED28-44DE-86E3-A783E1B759E0.1\r\n\tenvelope-from <sagar.s@frappemail.com>\r\n\ttls TLS_AES_256_GCM_SHA384;\r\n\tWed, 06 Nov 2024 08:58:29 +0000\r\nReceived: (Frappe Mail Agent); Wed, 06 Nov 2024 08:58:29 +0000\r\nReceived: from o1-blr.frappemail.com (ip6-localhost [::1])\r\n\tby o1-blr.frappemail.com (Haraka/3.0.3) with ESMTPSA id BF84C129-A129-4818-88F2-2A216D4D040D.1\r\n\tenvelope-from <sagar.s@frappemail.com>\r\n\ttls TLS_AES_256_GCM_SHA384 (authenticated bits=0);\r\n\tWed, 06 Nov 2024 08:58:29 +0000\r\nContent-Type: multipart/alternative;\r\n boundary=\"===============0863045983596233963==\"\r\nMIME-Version: 1.0\r\nFrom: Sagar Sharma <sagar.s@frappemail.com>\r\nTo: Sagar S <me@s-aga-r.dev>\r\nSubject: Test Email\r\nDate: Wed, 06 Nov 2024 08:57:26 +0000\r\nMessage-ID: <173088344652.222.8316241415157629603@frappemail.com>\r\nX-Priority: 1\r\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=frappemail.com;\r\n i=@frappemail.com; q=dns/txt; s=frappemail-com-d8852addda; t=1730883446; h=to\r\n : cc : from : date : subject : reply-to : message-id : in-reply-to;\r\n bh=k/MZq04SX5ovIG3cljRzVc8RLJpPS8/IC/KDyuOdV3I=;\r\n b=qJlPddwYBSyHtM/n34p3t3GLjmiHkbANF1m+9m/H4PgHC4LVwtgpS8Yo62uC4T84PoRqZ\r\n h5r+9Vcs/mgXcH2BeMyoqMO4H1Vk6iC6NvEYiHs+iQFjdwgKodpvLuSEls111e6U9+NCybq\r\n OwuDiQ28SiwvmdbVWOrxOACvl4LuJorWdIJ6i5iXelz/f52QMm1tlP2Wh2dXT7Mu6nTGO7g\r\n KpuieIHnDMTurQplxp2dOSnpwsw7I1sr3aHFDyP6oFONzMvTiK+/X2iCMg/W+nMjE4nz+2B\r\n DO7MTGFmB4RsUDyf+HtYVGFe/HggFK6XROWtUJR0CcmWVt9SeK3S5X+OT+tA==\r\nX-FM-OML: 019300b1-f29c-7868-af63-3513911e6801\r\nOriginal-Authentication-Results: o1-blr.frappemail.com;\r\n\tauth=pass (plain)\r\n\r\n--===============0863045983596233963==\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\n\r\nVGVzdCBFbWFpbA==\r\n\r\n--===============0863045983596233963==\r\nContent-Type: text/html; charset=\"utf-8\"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\n\r\nPGh0bWw+PGJvZHk+PGltZyBzcmM9Imh0dHBzOi8vY2xpZW50LmZyYXBwZW1haWwuY29tL2FwaS9t\r\nZXRob2QvbWFpbC5hcGkudHJhY2sub3Blbj9pZD0wMTkzMDBiMTY3MjI3MGVjYWE0YWI5OTlmOTBm\r\nMmQ5MCI+PHA+VGVzdCBFbWFpbDwvcD48L2JvZHk+PC9odG1sPg==\r\n\r\n--===============0863045983596233963==--\r\n"
+        "Delivered-To: me@s-aga-r.dev\r\nReceived-At: 2024-11-06T08:58:30.063Z\r\nAuthentication-Results: mail.s-aga-r.dev;\r\n\tspf=pass (mail.s-aga-r.dev: domain of sagar.s@frappemail.com designates 64.227.189.58 as permitted sender) smtp.mailfrom=sagar.s@frappemail.com smtp.helo=o1-blr.frappemail.com;\r\n\tdkim=pass header.i=@frappemail.com header.s=frappemail-com-d8852addda header.a=rsa-sha256 header.b=qJlPddwY;\r\n\tdmarc=pass (p=REJECT arc=none) header.from=frappemail.com header.d=frappemail.com;\r\n\tbimi=none\r\nReceived-SPF: pass (mail.s-aga-r.dev: domain of sagar.s@frappemail.com designates 64.227.189.58 as permitted sender) client-ip=64.227.189.58;\r\nReceived: from o1-blr.frappemail.com (o1-blr.frappemail.com [64.227.189.58])\r\n\tby mail.s-aga-r.dev (Haraka/3.0.3) with ESMTPS id EA28E71F-ED28-44DE-86E3-A783E1B759E0.1\r\n\tenvelope-from <sagar.s@frappemail.com>\r\n\ttls TLS_AES_256_GCM_SHA384;\r\n\tWed, 06 Nov 2024 08:58:29 +0000\r\nReceived: (NexTash mail Agent); Wed, 06 Nov 2024 08:58:29 +0000\r\nReceived: from o1-blr.frappemail.com (ip6-localhost [::1])\r\n\tby o1-blr.frappemail.com (Haraka/3.0.3) with ESMTPSA id BF84C129-A129-4818-88F2-2A216D4D040D.1\r\n\tenvelope-from <sagar.s@frappemail.com>\r\n\ttls TLS_AES_256_GCM_SHA384 (authenticated bits=0);\r\n\tWed, 06 Nov 2024 08:58:29 +0000\r\nContent-Type: multipart/alternative;\r\n boundary=\"===============0863045983596233963==\"\r\nMIME-Version: 1.0\r\nFrom: Sagar Sharma <sagar.s@frappemail.com>\r\nTo: Sagar S <me@s-aga-r.dev>\r\nSubject: Test Email\r\nDate: Wed, 06 Nov 2024 08:57:26 +0000\r\nMessage-ID: <173088344652.222.8316241415157629603@frappemail.com>\r\nX-Priority: 1\r\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=frappemail.com;\r\n i=@frappemail.com; q=dns/txt; s=frappemail-com-d8852addda; t=1730883446; h=to\r\n : cc : from : date : subject : reply-to : message-id : in-reply-to;\r\n bh=k/MZq04SX5ovIG3cljRzVc8RLJpPS8/IC/KDyuOdV3I=;\r\n b=qJlPddwYBSyHtM/n34p3t3GLjmiHkbANF1m+9m/H4PgHC4LVwtgpS8Yo62uC4T84PoRqZ\r\n h5r+9Vcs/mgXcH2BeMyoqMO4H1Vk6iC6NvEYiHs+iQFjdwgKodpvLuSEls111e6U9+NCybq\r\n OwuDiQ28SiwvmdbVWOrxOACvl4LuJorWdIJ6i5iXelz/f52QMm1tlP2Wh2dXT7Mu6nTGO7g\r\n KpuieIHnDMTurQplxp2dOSnpwsw7I1sr3aHFDyP6oFONzMvTiK+/X2iCMg/W+nMjE4nz+2B\r\n DO7MTGFmB4RsUDyf+HtYVGFe/HggFK6XROWtUJR0CcmWVt9SeK3S5X+OT+tA==\r\nX-FM-OML: 019300b1-f29c-7868-af63-3513911e6801\r\nOriginal-Authentication-Results: o1-blr.frappemail.com;\r\n\tauth=pass (plain)\r\n\r\n--===============0863045983596233963==\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\n\r\nVGVzdCBFbWFpbA==\r\n\r\n--===============0863045983596233963==\r\nContent-Type: text/html; charset=\"utf-8\"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\n\r\nPGh0bWw+PGJvZHk+PGltZyBzcmM9Imh0dHBzOi8vY2xpZW50LmZyYXBwZW1haWwuY29tL2FwaS9t\r\nZXRob2QvbWFpbC5hcGkudHJhY2sub3Blbj9pZD0wMTkzMDBiMTY3MjI3MGVjYWE0YWI5OTlmOTBm\r\nMmQ5MCI+PHA+VGVzdCBFbWFpbDwvcD48L2JvZHk+PC9odG1sPg==\r\n\r\n--===============0863045983596233963==--\r\n"
       ],
       "last_received_at": "2024-11-06 08:58:55.528916+00:00",
       "last_received_mail": "019300b2-c261-71d1-bc8d-bc321cc9ebaf"
@@ -474,7 +474,7 @@ APIs for retrieving received emails.
 
 ## Frontend UI
 
-Frappe Mail ships with its own frontend UI that can be used for managing emails.
+NexTash mail ships with its own frontend UI that can be used for managing emails.
 
 ![Send Mail](docs/screenshots/send-mail.png)
 

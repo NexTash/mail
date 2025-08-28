@@ -1,8 +1,8 @@
 app_name = "mail"
 app_title = "Mail"
-app_publisher = "Frappe Technologies Pvt. Ltd."
-app_description = "Frappe Mail"
-app_email = "developers@frappe.io"
+app_publisher = "NexTash"
+app_description = "NexTash Mail"
+app_email = "support@nextash.com"
 app_license = "agpl-3.0"
 # required_apps = []
 

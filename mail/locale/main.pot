@@ -1,16 +1,16 @@
 # Translations template for Mail.
-# Copyright (C) 2025 Frappe Technologies Pvt. Ltd.
+# Copyright (C) 2025 NexTash
 # This file is distributed under the same license as the Mail project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Mail VERSION\n"
-"Report-Msgid-Bugs-To: developers@frappe.io\n"
+"Report-Msgid-Bugs-To: support@nextash.com\n"
 "POT-Creation-Date: 2025-08-20 11:44+0553\n"
 "PO-Revision-Date: 2025-08-20 11:44+0553\n"
-"Last-Translator: developers@frappe.io\n"
-"Language-Team: developers@frappe.io\n"
+"Last-Translator: support@nextash.com\n"
+"Language-Team: support@nextash.com\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2866,7 +2866,7 @@ msgstr ""
 
 #: frontend/src/components/InstallPrompt.vue:4
 #: frontend/src/components/InstallPrompt.vue:25
-msgid "Install Frappe Mail"
+msgid "Install NexTash Mail"
 msgstr ""
 
 #: frontend/src/pages/dashboard/MailingListView.vue:39
@@ -6191,7 +6191,7 @@ msgid "TXT"
 msgstr ""
 
 #: mail/templates/emails/generic.html:18
-msgid "Team Frappe"
+msgid "Team NexTash"
 msgstr ""
 
 #. Label of the tenant (Link) field in DocType 'Mail Account'
@@ -7253,11 +7253,11 @@ msgid "You do not have permission to verify DNS Records."
 msgstr ""
 
 #: mail/mail/doctype/mail_account_request/mail_account_request.py:173
-msgid "You have been invited by {0} to join Frappe Mail"
+msgid "You have been invited by {0} to join NexTash Mail"
 msgstr ""
 
 #: mail/mail/doctype/mail_account_request/mail_account_request.py:177
-msgid "You have been invited by {0} to join tenant \"{1}\" on Frappe Mail."
+msgid "You have been invited by {0} to join tenant \"{1}\" on NexTash Mail."
 msgstr ""
 
 #: frontend/src/pages/MailboxView.vue:205
@@ -7407,7 +7407,7 @@ msgid "{0} (Delivered after {1} seconds)"
 msgstr ""
 
 #: mail/mail/doctype/mail_account_request/mail_account_request.py:185
-msgid "{0} - OTP for Frappe Mail Account Verification"
+msgid "{0} - OTP for NexTash Mail Account Verification"
 msgstr ""
 
 #: mail/mail/doctype/rate_limit/rate_limit.py:63

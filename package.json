@@ -10,8 +10,8 @@
     "build-email-css": "npx tailwindcss -i ./mail/public/email/style.css -o ./mail/public/css/email.css --config ./mail/public/email/tailwind.config.js",
     "build-app": "cd frontend && yarn build"
   },
-  "repository": "https://github.com/frappe/mail",
-  "author": "Frappe",
+  "repository": "https://github.com/nextash/mail",
+  "author": "NexTash",
   "license": "AGPL-3.0-or-later",
   "devDependencies": {
     "@eslint/js": "^9.20.0",

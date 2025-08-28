@@ -30,7 +30,7 @@
 							<span
 								v-if="
 									branding.data?.brand_name &&
-									branding.data?.brand_name != 'Frappe'
+									branding.data?.brand_name != 'NexTash'
 								"
 							>
 								{{ branding.data?.brand_name }}

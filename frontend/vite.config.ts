@@ -60,10 +60,10 @@ export default defineConfig({
 			},
 			manifest: {
 				display: 'standalone',
-				name: 'Frappe Mail',
-				short_name: 'Frappe Mail',
+				name: 'NexTash Mail',
+				short_name: 'NexTash Mail',
 				start_url: '/mail',
-				description: 'Modern email client powered by Frappe',
+				description: 'Modern email client powered by NexTash',
 				icons: [
 					{
 						src: '/assets/mail/frontend/manifest/manifest-icon-192.maskable.png',

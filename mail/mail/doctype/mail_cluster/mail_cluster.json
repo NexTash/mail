@@ -178,7 +178,7 @@
    "fieldtype": "Data",
    "label": "Base URL",
    "no_copy": 1,
-   "placeholder": "https://mail.frappemail.com/"
+   "placeholder": "https://mail.nextashmail.com/"
   },
   {
    "fieldname": "stores_section",
@@ -441,7 +441,7 @@
    "fieldtype": "Data",
    "label": "Hostname",
    "no_copy": 1,
-   "placeholder": "mail.frappemail.com",
+   "placeholder": "mail.nextashmail.com",
    "reqd": 1,
    "set_only_once": 1,
    "unique": 1

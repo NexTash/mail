@@ -352,7 +352,7 @@ def get_dkim_host(domain_name: str, type: Literal["rsa", "ed25519"]) -> str:
 def get_dkim_selector(key_type: Literal["rsa", "ed25519"]) -> str:
 	"""
 	Returns DKIM selector.
-	e.g. frappemail-r for RSA and frappemail-e for Ed25519.
+	e.g. nextashmail-r for RSA and nextashmail-e for Ed25519.
 	"""
 
-	return f"frappemail-{key_type[0]}"
+	return f"nextashmail-{key_type[0]}"

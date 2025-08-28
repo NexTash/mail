@@ -14,7 +14,7 @@ from mail.utils.user import has_role
 @frappe.whitelist(methods=["POST"])
 @dynamic_rate_limit()
 def upload_attachment() -> dict:
-	"""Upload an attachment to the Frappe Mail folder."""
+	"""Upload an attachment to the NexTash Mail folder."""
 
 	try:
 		user = frappe.session.user
@@ -30,7 +30,7 @@ def upload_attachment() -> dict:
 				"dn": None,
 				"is_private": 1,
 				"fname": file.filename,
-				"folder": "Home/Frappe Mail",
+				"folder": "Home/NexTash Mail",
 				"content": file.stream.read(),
 			}
 			doc = save_file(**kwargs)

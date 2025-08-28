@@ -134,7 +134,7 @@
 				<template #bottom>
 					<FileUploader
 						:class="{ 'fixed bottom-0 left-0 right-0 px-3': isMobile }"
-						:upload-args="{ private: true, folder: 'Home/Frappe Mail' }"
+						:upload-args="{ private: true, folder: 'Home/NexTash Mail' }"
 						@success="
 							(file) => mail.attachments.push({ ...file, disposition: 'attachment' })
 						"
@@ -378,7 +378,7 @@ const uploadFunction = async (file: File) => {
 	const fileUpload = useFileUpload()
 	const fileDoc = (await fileUpload.upload(file, {
 		private: true,
-		folder: 'Home/Frappe Mail',
+		folder: 'Home/NexTash Mail',
 	})) as FileDoc
 	mail.attachments.push({
 		file_name: fileDoc.file_name,

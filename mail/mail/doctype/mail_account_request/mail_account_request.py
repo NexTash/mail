@@ -1,4 +1,4 @@
-# Copyright (c) 2025, Frappe Technologies Pvt. Ltd. and contributors
+# Copyright (c) 2025, NexTash
 # For license information, please see license.txt
 
 
@@ -170,11 +170,11 @@ class MailAccountRequest(Document):
 		link = get_url("/mail/signup/business/" + self.request_key)
 
 		if self.is_invite and self.invited_by:
-			subject = _("You have been invited by {0} to join Frappe Mail").format(self.invited_by)
+			subject = _("You have been invited by {0} to join NexTash Mail").format(self.invited_by)
 			template = "generic"
 			tenant_name = frappe.db.get_value("Mail Tenant", self.tenant, "tenant_name")
 			args = {
-				"title": _('You have been invited by {0} to join tenant "{1}" on Frappe Mail.').format(
+				"title": _('You have been invited by {0} to join tenant "{1}" on NexTash Mail.').format(
 					self.invited_by, tenant_name
 				),
 				"description": _("Please confirm your email address by clicking the button below."),
@@ -182,7 +182,7 @@ class MailAccountRequest(Document):
 				"link": link,
 			}
 		else:
-			subject = _("{0} - OTP for Frappe Mail Account Verification").format(self.otp)
+			subject = _("{0} - OTP for NexTash Mail Account Verification").format(self.otp)
 			template = "business_signup"
 			args = {"link": link, "otp": self.otp}
 

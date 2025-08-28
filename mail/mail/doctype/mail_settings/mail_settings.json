@@ -46,7 +46,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Root Domain Name",
-   "placeholder": "frappemail.com",
+   "placeholder": "nextashmail.com",
    "reqd": 1
   },
   {
@@ -112,7 +112,7 @@
    "fieldtype": "Data",
    "label": "Host",
    "mandatory_depends_on": "eval: doc.enable_spamd",
-   "placeholder": "spamd.frappemail.com",
+   "placeholder": "spamd.nextashmail.com",
    "read_only_depends_on": "eval: !doc.enable_spamd"
   },
   {

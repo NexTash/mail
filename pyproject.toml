@@ -1,9 +1,9 @@
 [project]
 name = "mail"
 authors = [
-    { name = "Frappe Technologies Pvt. Ltd.", email = "developers@frappe.io"}
+    { name = "NexTash", email = "support@nextash.com"}
 ]
-description = "Frappe Mail"
+description = "NexTash Mail"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

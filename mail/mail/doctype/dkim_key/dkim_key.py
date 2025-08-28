@@ -1,4 +1,4 @@
-# Copyright (c) 2024, Frappe Technologies Pvt. Ltd. and contributors
+# Copyright (c) 2024, NexTash
 # For license information, please see license.txt
 
 from typing import Literal

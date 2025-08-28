@@ -13,7 +13,7 @@ from mail.utils import get_mail_app_path, get_stalwart_cli_path
 def after_install() -> None:
 	add_rate_limits()
 	create_default_tenant()
-	create_new_folder("Frappe Mail", "Home")
+	create_new_folder("NexTash Mail", "Home")
 
 
 def after_migrate() -> None:
@@ -57,7 +57,7 @@ def create_default_tenant() -> None:
 	"""Create the default tenant."""
 
 	tenant = frappe.new_doc("Mail Tenant")
-	tenant.tenant_name = "Frappe Mail"
+	tenant.tenant_name = "NexTash Mail"
 	tenant.user = "Administrator"
 	tenant.allow_personal_signup = 1
 	tenant.insert(ignore_permissions=True)
